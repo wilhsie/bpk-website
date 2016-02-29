@@ -1,0 +1,50 @@
+
+.vertical-center {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+
+  display: flex;
+  align-items: center;
+}
+
+#banner-text {
+	font-family:'Pacifico', cursive;
+	font-color: #3D3939;
+}
+
+#fireicon {
+	width: 70px;
+	height:auto;
+	padding:10px;
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+}
+
+#elementalicon{
+	width:100px; 
+	height:auto;
+	padding:10px;
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+}
+
+#extend-bottom {
+	padding-bottom: 4em;
+}
+
+.container {
+    max-width: 700px;
+}
+
+.jumbotron {
+    background: no-repeat center fixed url(./images/bpk\ banner\ bg.png);
+    background-size: cover;
+    height: 100%;
+}
+
+div#footer {
+    background-color: #D0CFCF;
+}
+
